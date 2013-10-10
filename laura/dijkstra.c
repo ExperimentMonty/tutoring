@@ -5,7 +5,7 @@
 #define LINE_LENGTH 4096
 
 typedef struct{
-  char email[101];
+  char email[102];
 } Node;
 
 typedef struct{
@@ -28,9 +28,9 @@ int main(int argc, char ** argv)
   FILE* input;
   int quit;
   char line[LINE_LENGTH];
-  char email[101];
-  char user[50];
-  char tld[50];
+  char email[102];
+  char user[51];
+  char tld[51];
 
   if( argc != 2 )
     {
@@ -43,6 +43,9 @@ int main(int argc, char ** argv)
 
   /*Read data from the file*/
   read_input(input);
+
+  /*Close file for reading*/
+  fclose(input);
 
   /*Program loop*/
   quit = 0;
@@ -103,11 +106,7 @@ int main(int argc, char ** argv)
 	{
 	  print_commands();
 	}
-      /*quit = 1;*/
     }
-
-  /*Close file for reading*/
-  fclose(input);
 
   return 0;
 }
@@ -129,6 +128,12 @@ void print_commands()
 {
   printf("Unrecognizable command\n");
   printf("Printing commands and their usage!\n");
+
+  printf("Invalid command, valid commands are:\n");
+  printf("quit\n");
+  printf("list\n");
+  printf("show <email_address>\n");
+  printf("paths <email_address>\n");
   return;
 }
 
