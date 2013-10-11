@@ -114,7 +114,9 @@ int main(int argc, char ** argv)
 
 void read_input(FILE* input)
 {
-  printf("Reading input\n");
+  char line[LINE_LENGTH];
+  
+  /*printf("Reading input\n");*/
   return;
 }
 
