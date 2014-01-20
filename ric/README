@@ -1,4 +1,5 @@
 Ricardo is starting from scratch learning python, so I'll be keeping the lessons short and simple at first, then moving on to fun little exercises to teach new components.
+Note for teaching: English is not Ric's first language, and he does have some issues with spelling. Perhaps I should have these programs typed up with a way to magnify the letters for him to see?
 Plan of teaching:
 =First Session=
 *Hello World
@@ -8,12 +9,17 @@ Plan of teaching:
 *Modules (have random module choose the number for the user)
 *For loop (give multiple guesses for someone to get it right)
 *While loop (give infinite guesses for someone to get things right)
-**Add in conditionals to give feedback to the guesser if they're high or low
+**Add in conditionals to give feedback to the guesser if they're high or low #I didn't do this, but probably should have
 *Project to bring it all together
 **Create Rock Paper Scissors game
 ***User can choose to play a round, see their stats, or quit
 ***Stats will be how many times the player has won, how many times the computer has won, and how many times they tied
+#Didn't do any of this extra stuff
 *Extra time: Talk about pseudo-random numbers
 **As an example of why this matters, imagine trying to count even and odd numbers when the only numbers you can choose from are 1,2, and 3.
 ***Odd numbers would account for 66% of the numbers picked, even though it should be 50% in an ideal random number generator
 **Have student try to figure out which hand sign his RPS program is biased to.
+
+==Second Session==
+Ric seems to be primarily wanting to learn Python/Ruby to do web development, so I'm going to get him started off with the basics of HTML and CSS this round of tutoring.
+*The absolute barebones HTML file (just <html><body>Hello World</body></html>
