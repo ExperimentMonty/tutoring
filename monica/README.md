@@ -25,3 +25,4 @@ Session 2
 Session 3
 ----------
 * I'll start off by asking her to explain where we left off yesterday, to make sure she understands it.
+** She understood it well. 
