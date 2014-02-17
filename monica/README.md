@@ -26,3 +26,14 @@ Session 3
 ----------
 * I'll start off by asking her to explain where we left off yesterday, to make sure she understands it.
 ** She understood it well. 
+* We had some difficulties with getting istream operators passed around for some reason.
+** It would have been helpful if the teacher had made clear how he wanted his classes to be layed out.  It wasn't clear if the log class should be given a string, or an istream object as an initializer
+
+Session 4
+---------
+* Monica needs help with her second project.  It's kind of a continuation of the previous project, but with subclasses as well as classes, basically.
+* For this session, she just wanted to go over the basic ideas of the project, and then go over, in a high-level way, what it is she'll need to make for this project.  I think this is very smart, and I need to remember to try to do this more in the future.  This gives us a chance to talk over what it is that needs to be done, but give her all the time to figure out how to do it, as opposed to me telling her "Oh, you should implement this now" or "Oh, that error means that this went wrong."  Her finding that out on her own is MUCH better.
+* She'll be implementing as much as she can, and then we'll be meeting up tomorrow for whatever she had trouble with.
+
+Session 5
+---------
