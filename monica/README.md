@@ -37,3 +37,10 @@ Session 4
 
 Session 5
 ---------
+* We started off this session going over what Monica had already implemented, and she explained what she had trouble with while implementing it.
+** She had trouble implementing the overloaded = operator, and the destructors.
+* When she tried to compile her code, a bunch of problems showed up, mostly relating to pointers.
+** I explained to her to not feel too bad, that pointers are one of the hardest things to handle right in CS, right up there with recursion.
+* We fixed all of the errors, then we implemented the loading functions one by one and testing to see if they were working correctly by hardcoding in the paths to the text files.
+* Once we finished verifying that all of those functions were implemented correctly, we re-worked our hardcoded main function to accept command line arguments, and to error check the command line arguments as well.
+* The only things we didn't get done was outputting a few sample records (although all she needs to do is take the single outputs we did and put them into loops), and we might not have the destructors made right (but she'll be asking about this at her office hours).
