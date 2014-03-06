@@ -44,3 +44,15 @@ Session 5
 * We fixed all of the errors, then we implemented the loading functions one by one and testing to see if they were working correctly by hardcoding in the paths to the text files.
 * Once we finished verifying that all of those functions were implemented correctly, we re-worked our hardcoded main function to accept command line arguments, and to error check the command line arguments as well.
 * The only things we didn't get done was outputting a few sample records (although all she needs to do is take the single outputs we did and put them into loops), and we might not have the destructors made right (but she'll be asking about this at her office hours).
+
+Session 6 - 2.5 hours
+---------
+* This session was to work on her third project in this course.  It was basically to add a templated linked list to the previous project.
+* I had to relearn how to use templated classes in C++.  I seem to be relearning a lot of things while doing this tutoring stuff, which is pretty awesome.
+* We had a problem where we pretty much just stared at the screen for ten minutes.  I really hope it was somehow an education in the debugging process for Monica.  Eventually we discovered that we had forgotten to mark a variable as being a pointer in a class constructor.
+** Always look further into the error code if the error spawned from a chain of problems!
+* We also added in exception handling for all of the C++ new calls.
+** I discovered that they don't do the NULL pointer thing like C, they throw a bad_alloc exception, or something like that.
+* We also added exception handling for bounds checking, which is awesome, because those exceptions were being handled already by the outer program.
+** But I do need to remind Monica to catch the exceptions in her at function and her [] operator. 
+*** Sent her the email giving her advice about that.
