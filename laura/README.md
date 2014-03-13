@@ -5,7 +5,7 @@ Laura needed help with a C program Breadth-First Search implementation of
 Dijkstra's algorithm.
 
 Session 2
-========
+=========
 
 Laura needed help with a project that required her to implement a hash table
 that used linear probing.  Initially she had sent me the wrong document, so I
@@ -22,3 +22,18 @@ like, and then we actually discovered what the function prototype would look
 like as I looked through the project description to see what I should explain
 high-level before I left.  We'll probably be meeting up on Thursday to see how
 well she's done at implementing the other functions.
+
+Session 3
+=========
+
+We continued on the project with the hash table.  This point, we implemented the
+initialization, insertion, deletions, searching, and some other utility
+functions.  We also laid out the outline of the hashtester program
+
+Session 4
+=========
+
+We finished implementing the hashtester function.  I found out that strtok will
+modify the original string.  Laura seems to be getting a better hang of this
+stuff.  She submitted her project, and it passed 20/20 tests, so I assume that's
+probably an A, or pretty close to it if the teacher also grades by style.
